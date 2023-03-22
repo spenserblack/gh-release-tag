@@ -1,5 +1,7 @@
 # gh-release-tag
 
+[![CI](https://github.com/spenserblack/gh-release-tag/actions/workflows/ci.yml/badge.svg)](https://github.com/spenserblack/gh-release-tag/actions/workflows/ci.yml)
+
 Generate release notes in your tag message
 
 ## How it works
