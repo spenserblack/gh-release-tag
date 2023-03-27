@@ -15,7 +15,7 @@ import (
 func main() {
 	flag.Parse()
 	args := flag.Args()
-	if len(args) != 1 {
+	if len(args) < 1 || len(args) > 2 {
 		fmt.Fprintln(os.Stderr, "Usage: gh-release-notes <tag-name> [release-title]")
 		os.Exit(1)
 	}
