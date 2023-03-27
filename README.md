@@ -6,6 +6,12 @@ Generate release notes in your tag message
 
 Pairs well with my [tag-to-release action][actions-tag-to-release].
 
+## Installation
+
+```shell
+gh extension install spenserblack/gh-release-tag
+```
+
 ## How it works
 
 This calls the GitHub API to generate release notes. However, instead
