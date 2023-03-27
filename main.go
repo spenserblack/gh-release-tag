@@ -57,7 +57,7 @@ func main() {
 	onError(err)
 	cmd := exec.Command(
 		git, "tag", "--cleanup=verbatim", "-a", tagName, "-m",
-		fmt.Sprintf("%s\n\n%s", releaseTitle, response.Body),
+		fmt.Sprintf("%s\n\n%s\n", releaseTitle, response.Body),
 	)
 	err = cmd.Run()
 	onError(err)
